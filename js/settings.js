@@ -132,7 +132,6 @@
 				let enemy04	= new Enemy("Hipo", 450, 200, 50, 100, 100);
 				let enemy05 = new Enemy("Wolf", 250, 0, 50, 100, 100);
 
-
 				// Math methode for random enemy
 				//search for a number between 0 and 1
 				let chooseRandomEnemy = a;
@@ -145,6 +144,7 @@
 					break;
 					case 2:
 					enemy = enemy02;
+					break
 					case 3:
 					enemy = enemy03;
 					break;
